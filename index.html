@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Localist City Platform</title>
+<meta name="description" content="Find trusted local businesses in your city. Localist is a multi-city local business discovery platform.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div id="intro" aria-hidden="true">
+  <div class="i-in">
+    <div class="i-logo"><span class="logo-m">L</span><span class="i-name">Localist</span></div>
+    <div class="i-tag">Local businesses, city by city</div>
+    <div class="i-bar"><i></i></div>
+  </div>
+</div>
+
+<div class="pbar"><div class="wrap pbar-in">
+  <b>PROTOTYPE</b>
+  <a href="#home" data-pv="home">Customer website</a>
+  <a href="#app" data-pv="app">Mobile app</a>
+  <a href="#owner" data-pv="owner">Business owner</a>
+  <a href="#team" data-pv="team">City franchise team</a>
+  <a href="#admin" data-pv="admin">Superadmin</a>
+  <a href="#design" data-pv="design">Design system</a>
+  <a href="#journeys" data-pv="journeys">User journeys</a>
+  <a href="#wireframes" data-pv="wireframes">Wireframes</a>
+  <a href="#testing" data-pv="testing">Usability testing</a>
+  <a href="#proposal" data-pv="proposal">Proposal</a>
+  <button class="sp" data-act="reset">↺ Reset demo data</button>
+</div></div>
+
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#home" aria-label="Localist home">
+      <span class="logo-m">L</span>
+      <span class="logo-t"><b>LOCALIST</b><small id="logoDomain">jaipur.localist.in</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#explore" data-nav="explore">Explore</a>
+      <a href="#services" data-nav="services">Services</a>
+      <a href="#deals" data-nav="deals">Deals</a>
+      <a href="#news" data-nav="news">City news</a>
+      <a href="#list-business" data-nav="list-business">For business</a>
+      <a href="#franchise" data-nav="franchise">Franchise</a>
+      
+    </nav>
+    <div class="top-r">
+      <button class="city-btn" data-act="city-open" aria-label="Change city"><i></i><span id="cityName">Jaipur</span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m6 9 6 6 6-6"/></svg></button>
+      <a class="signin" href="#login">Sign in</a>
+      <a class="btn btn-ink btn-sm" href="#list-business">List your business</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+<nav class="bnav" aria-label="Quick navigation">
+  <a href="#home" data-bn="home"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11 12 4l8 7v9H4z"/><path d="M10 20v-5h4v5"/></svg>Home</a>
+  <a href="#explore" data-bn="explore"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>Explore</a>
+  <a href="#deals" data-bn="deals"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg>Deals</a>
+  <a href="#list-business" data-bn="list-business"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 9l1-5h14l1 5"/><path d="M5 11v10h14V11M10 21v-6h4v6"/></svg>Business</a>
+  <a href="#login" data-bn="login"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Account</a>
+</nav>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <a class="logo" href="#home"><span class="logo-m">L</span><span class="logo-t"><b>LOCALIST</b></span></a>
+      <p>Find and contact trusted local businesses. One platform, with a dedicated site for every city in India.</p>
+      <p style="font-size:13px">You are on <span id="footDomain" style="color:var(--bg)">jaipur.localist.in</span></p>
+    </div>
+    <div><h4>Explore</h4><ul>
+      <li><button data-act="cat" data-id="doctor">Doctors &amp; labs</button></li>
+      <li><button data-act="cat" data-id="food">Order food</button></li>
+      <li><button data-act="cat" data-id="property">Property</button></li>
+      <li><button data-act="cat" data-id="job">Jobs</button></li>
+      <li><a href="#services">All services</a></li>
+      <li><a href="#deals">Deals</a></li>
+      <li><a href="#news">City news</a></li>
+      <li><a href="#app">Get the app</a></li></ul></div>
+    <div><h4>For business</h4><ul>
+      <li><a href="#list-business">List your business</a></li>
+      <li><a href="#owner">Business dashboard</a></li>
+      <li><a href="#franchise">City franchise</a></li></ul></div>
+    <div><h4>Company</h4><ul>
+      <li><button data-act="city-open">All city sites</button></li>
+      <li><a href="#design">Design system</a></li>
+      <li><button data-act="replay">Replay opening animation</button></li></ul></div>
+    <div><h4>Demo views</h4><ul>
+      <li><a href="#owner">Business owner</a></li>
+      <li><a href="#team">City team</a></li>
+      <li><a href="#admin">Superadmin</a></li>
+      <li><a href="#app">Mobile app</a></li>
+      <li><a href="#journeys">User journeys</a></li>
+      <li><a href="#wireframes">Wireframes</a></li>
+      <li><a href="#testing">Usability testing</a></li>
+      <li><a href="#proposal">Proposal</a></li></ul></div>
+  </div>
+  <div class="wrap foot-b"><span>© 2026 Localist</span><span>Prototype. Businesses, people and numbers are sample data.</span></div>
+</footer>
+
+<div class="modal" id="cityModal" role="dialog" aria-modal="true" aria-labelledby="cityTitle">
+  <div class="modal-box">
+    <div class="modal-h"><div><span class="eyebrow">City hubs</span><h2 id="cityTitle" style="margin-top:8px">Select your city</h2></div><button class="x" data-act="modal-close" aria-label="Close">×</button></div>
+    <input id="cityQ" type="search" placeholder="Search city or state" autocomplete="off" aria-label="Search city">
+    <div class="ccity" id="cityList"></div>
+  </div>
+</div>
+
+<div class="modal" id="enqModal" role="dialog" aria-modal="true" aria-labelledby="enqTitle">
+  <div class="modal-box" style="width:min(620px,100%)">
+    <div class="modal-h"><div><span class="eyebrow">Direct enquiry</span><h2 id="enqTitle" style="margin-top:8px">Send direct enquiry</h2><p class="muted" id="enqTo" style="margin-top:6px;font-size:14px"></p></div><button class="x" data-act="modal-close" aria-label="Close">×</button></div>
+    <form data-form="enqmodal" id="enqForm">
+      <div class="field"><label for="mService">Interested service</label><select id="mService"></select></div>
+      <div class="row2"><div class="field"><label for="mName">Full name</label><input id="mName" required placeholder="Your name"></div><div class="field"><label for="mPhone">Phone number</label><input id="mPhone" required inputmode="numeric" pattern="[0-9 ]{10,12}" placeholder="10 digits"></div></div>
+      <div class="field"><label for="mEmail">Email (optional)</label><input id="mEmail" type="email" placeholder="you@example.com"></div>
+      <div class="field"><label for="mMsg">Your message</label><textarea id="mMsg" placeholder="Tell them what you need and when"></textarea></div>
+      <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap"><button type="button" class="btn btn-line" data-act="modal-close">Cancel</button><button class="btn btn-ink" type="submit">Submit enquiry</button></div>
+      <p class="dnote">Demo: enquiries are saved in this browser and show up in the business owner, city team and superadmin dashboards.</p>
+    </form>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<button id="totop" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 15 6-6 6 6"/></svg></button>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
